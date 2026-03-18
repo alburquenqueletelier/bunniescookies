@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <!-- Background -->
+  <circle cx="160" cy="160" r="160" fill="#FCE7F3"/>
+
+  <!-- Cookie 1 (center) -->
+  <g transform="translate(100,90)">
+    <!-- Ears -->
+    <ellipse cx="30" cy="18" rx="12" ry="22" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <ellipse cx="70" cy="18" rx="12" ry="22" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <ellipse cx="30" cy="18" rx="7" ry="16" fill="#FFB3C8" opacity="0.7"/>
+    <ellipse cx="70" cy="18" rx="7" ry="16" fill="#FFB3C8" opacity="0.7"/>
+    <!-- Body -->
+    <circle cx="50" cy="75" r="48" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <!-- Eyes -->
+    <circle cx="37" cy="68" r="3.5" fill="#5C3317"/>
+    <circle cx="63" cy="68" r="3.5" fill="#5C3317"/>
+    <!-- Shine -->
+    <circle cx="38.5" cy="66.5" r="1.2" fill="white"/>
+    <circle cx="64.5" cy="66.5" r="1.2" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="50" cy="78" rx="4" ry="2.5" fill="#FFB3C8"/>
+    <!-- Mouth -->
+    <path d="M43 84 Q50 90 57 84" stroke="#5C3317" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="34" cy="78" r="7" fill="#FF9EB5" opacity="0.4"/>
+    <circle cx="66" cy="78" r="7" fill="#FF9EB5" opacity="0.4"/>
+  </g>
+
+  <!-- Cookie 2 (left, smaller) -->
+  <g transform="translate(40,130) scale(0.65)">
+    <ellipse cx="30" cy="18" rx="12" ry="22" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <ellipse cx="70" cy="18" rx="12" ry="22" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <ellipse cx="30" cy="18" rx="7" ry="16" fill="#FFB3C8" opacity="0.7"/>
+    <ellipse cx="70" cy="18" rx="7" ry="16" fill="#FFB3C8" opacity="0.7"/>
+    <circle cx="50" cy="75" r="48" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <circle cx="37" cy="68" r="3.5" fill="#5C3317"/>
+    <circle cx="63" cy="68" r="3.5" fill="#5C3317"/>
+    <ellipse cx="50" cy="78" rx="4" ry="2.5" fill="#FFB3C8"/>
+    <path d="M43 84 Q50 90 57 84" stroke="#5C3317" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="34" cy="78" r="7" fill="#FF9EB5" opacity="0.4"/>
+    <circle cx="66" cy="78" r="7" fill="#FF9EB5" opacity="0.4"/>
+  </g>
+
+  <!-- Cookie 3 (right, smaller) -->
+  <g transform="translate(195,130) scale(0.65)">
+    <ellipse cx="30" cy="18" rx="12" ry="22" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <ellipse cx="70" cy="18" rx="12" ry="22" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <ellipse cx="30" cy="18" rx="7" ry="16" fill="#FFB3C8" opacity="0.7"/>
+    <ellipse cx="70" cy="18" rx="7" ry="16" fill="#FFB3C8" opacity="0.7"/>
+    <circle cx="50" cy="75" r="48" fill="#F5E6D0" stroke="#C4956A" stroke-width="1.5"/>
+    <circle cx="37" cy="68" r="3.5" fill="#5C3317"/>
+    <circle cx="63" cy="68" r="3.5" fill="#5C3317"/>
+    <ellipse cx="50" cy="78" rx="4" ry="2.5" fill="#FFB3C8"/>
+    <path d="M43 84 Q50 90 57 84" stroke="#5C3317" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="34" cy="78" r="7" fill="#FF9EB5" opacity="0.4"/>
+    <circle cx="66" cy="78" r="7" fill="#FF9EB5" opacity="0.4"/>
+  </g>
+
+  <!-- Sparkles -->
+  <text x="55" y="90" font-size="18" opacity="0.8">✨</text>
+  <text x="225" y="100" font-size="14" opacity="0.7">💕</text>
+  <text x="130" y="50" font-size="12" opacity="0.6">🌸</text>
+</svg>
