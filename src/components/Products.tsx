@@ -43,7 +43,7 @@ export default function Products() {
                   alt={product.name}
                   width={160}
                   height={160}
-                  className="object-contain w-36 h-36"
+                  className="object-contain w-36 h-36 mix-blend-multiply"
                 />
               </div>
 

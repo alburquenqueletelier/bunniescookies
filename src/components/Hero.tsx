@@ -2,10 +2,12 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-[#FFF8F3] pt-16 px-4 text-center relative overflow-hidden">
-      {/* Decorative circles */}
-      <div className="absolute top-20 left-0 w-64 h-64 bg-[#FCE7F3] rounded-full opacity-50 -translate-x-1/2" />
-      <div className="absolute bottom-10 right-0 w-80 h-80 bg-[#FDE8D8] rounded-full opacity-50 translate-x-1/3" />
+    <section
+      className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 text-center relative overflow-hidden"
+      style={{ backgroundImage: 'url(/images/muchas-galletas.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-[#FFF8F3]/40" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-lg">
         {/* Image placeholder */}
@@ -23,7 +25,7 @@ export default function Hero() {
         {/* Title */}
         <div>
           <h1 className="text-5xl sm:text-6xl font-black text-[#7C3527] leading-tight tracking-tight">
-            Bunnies<br />Cookies
+            Bunnies Cookies
           </h1>
           <p className="mt-2 text-[#A0522D] text-lg font-semibold italic">
             Handmade with love and butter 🧈

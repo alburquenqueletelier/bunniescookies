@@ -6,14 +6,14 @@ export const products: Product[] = [
     name: 'Pack 3 Bunnies',
     cookies: 3,
     price: 1800,
-    image: '/images/pack-3.svg',
+    image: '/images/3-galletas-sinfondo.png',
   },
   {
     id: 2,
     name: 'Pack 5 Bunnies',
     cookies: 5,
     price: 3000,
-    image: '/images/pack-5.svg',
+    image: '/images/5-galletas-sinfondo.png',
   },
   {
     id: 3,
