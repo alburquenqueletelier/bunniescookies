@@ -11,7 +11,7 @@ export default function Hero() {
         {/* Image placeholder */}
         <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white bg-[#FCE7F3] flex items-center justify-center">
           <Image
-            src="/images/hero.svg"
+            src="/images/logo.jpeg"
             alt="Bunnies Cookies"
             width={320}
             height={320}

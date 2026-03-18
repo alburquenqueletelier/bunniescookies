@@ -10,7 +10,11 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <span className="text-2xl">🐰</span>
+          <img
+            src="/images/logo.jpeg"
+            alt="Bunnies Cookies logo"
+            className="h-10 w-10 rounded-full object-cover"
+          />
           <div>
             <p className="font-bold text-[#7C3527] leading-none text-lg">Bunnies Cookies</p>
             <p className="text-xs text-[#A0522D]">Handmade with love & butter</p>
