@@ -37,13 +37,12 @@ export default function Products() {
               )}
 
               {/* Image */}
-              <div className="bg-[#FCE7F3] p-6 flex items-center justify-center h-48">
+              <div className="relative bg-[#FCE7F3] h-48">
                 <Image
                   src={product.image}
                   alt={product.name}
-                  width={160}
-                  height={160}
-                  className="object-contain w-36 h-36 mix-blend-multiply"
+                  fill
+                  className="object-cover"
                 />
               </div>
 
