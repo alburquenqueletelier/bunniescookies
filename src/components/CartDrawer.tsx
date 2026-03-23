@@ -23,10 +23,6 @@ function buildWhatsAppMessage(
     ),
     '',
     `\u{1F4B0} *Total: ${formatPrice(total)}*`,
-    ...(deliveryApplies
-      ? [`\u{1F69A} Necesito delivery (+$1.000 adicional) \u2014 Quilpu\u00e9 / Villa Alemana`]
-      : []),
-    '',
     `\u00a1Gracias! \u{1F495}`,
   ]
   return encodeURIComponent(lines.join('\n'))

@@ -20,7 +20,7 @@ export const products: Product[] = [
     name: 'Pack 10 Bunnies',
     cookies: 10,
     price: 5000,
-    image: '/images/pack-10.svg',
+    image: '/images/muchas-bunnies.png',
     badge: '⭐ Más popular',
   },
   {
@@ -28,6 +28,6 @@ export const products: Product[] = [
     name: 'Pack 20 Bunnies',
     cookies: 20,
     price: 8000,
-    image: '/images/pack-20.svg',
+    image: '/images/muchas-bunnies.png',
   },
 ]
